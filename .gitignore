@@ -1,0 +1,10 @@
+# Ignore all compiled binaries (no extension)
+# Matches any file with executable permissions
+# but we’ll be more specific to avoid ignoring scripts
+# so ignore files with no extension inside this folder
+# that aren’t .c or .h
+*
+!*/
+!*.c
+!*.h
+!*.gitignore
