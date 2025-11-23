@@ -39,8 +39,6 @@ void use_segment(pthread_mutex_t *mutex, char *segment_name, char *train_name, i
     pthread_mutex_unlock(mutex); 
 }
 
-// --- 3. Threads ---
-
 void* thread_MR1(void *arg){
     int id = *(int*)arg;
 
